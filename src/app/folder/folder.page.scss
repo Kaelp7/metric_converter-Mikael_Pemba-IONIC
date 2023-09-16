@@ -1,3 +1,52 @@
+ion-header {
+  height: 80px;
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+ion-header p {
+  font-size: 10px;
+  margin-top: 1px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+ion-content {
+  width: 400px;
+  height: 150px;
+  background: lightgray;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+
+input {
+  height: 25px;
+  width: 150px;
+  text-align: center;
+}
+
+#input {
+  margin-right: 5px;
+}
+
+#result {
+  margin-left: 5px;
+}
+
+#inputType,#resultType {
+  width: 150px;
+  color: #000055;
+}
+
+#resultType {
+  margin-left: 20px;
+}
+
+
+
+
+/*
 ion-menu-button {
   color: var(--ion-color-primary);
 }
@@ -26,3 +75,4 @@ ion-menu-button {
 #container a {
   text-decoration: none;
 }
+*/
